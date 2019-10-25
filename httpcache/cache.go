@@ -1,5 +1,7 @@
 package httpcache
 
+import "net/http"
+
 // A Cache interface is used by the Transport to store and retrieve responses.
 type Cache interface {
 	// Get returns the []byte representation of a cached response and a bool

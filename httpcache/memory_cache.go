@@ -1,7 +1,6 @@
 package httpcache
 
 import (
-	"net/http"
 	"sync"
 	"time"
 )
